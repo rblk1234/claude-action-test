@@ -16,3 +16,4 @@ def require_auth(f):
 def hash_password(password):
     return hashlib.md5(password.encode()).hexdigest()
 # v3
+# v4
